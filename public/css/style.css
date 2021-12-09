@@ -1,0 +1,242 @@
+.infinity-image-container {
+    background: url("../images/login1.png") center no-repeat;
+    background-size: cover;
+}
+
+* {
+    height: auto;
+}
+
+.infinity-form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.infinity-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.infinity-form h4 {
+    font-weight: bold;
+}
+
+.infinity-form .form-input {
+    position: relative;
+}
+
+.infinity-form .form-input input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #777;
+    outline: none;
+    background: transparent;
+    padding-left: 40px;
+    font-weight: bold;
+    color: #777;
+}
+
+.infinity-form .form-input span {
+    position: absolute;
+    top: 8px;
+    padding-left: 10px;
+    color: #777;
+}
+
+.infinity-form .form-input input:focus,
+.infinity-form .form-input input:valid {
+    border-bottom: 2px solid #4285f4;
+}
+
+.infinity-form
+    .custom-checkbox
+    .custom-control-input:checked
+    ~ .custom-control-label::before {
+    background-color: #4285f4 !important;
+    border: 0px;
+}
+
+.infinity-form button[type="submit"] {
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #4285f4, #709de8); /*Button Color*/
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.infinity-form button[type="submit"]:hover {
+    background: linear-gradient(
+        45deg,
+        #709de8,
+        #4285f4
+    ); /*Button color when hover*/
+}
+
+.forget-link,
+.login-link,
+.register-link {
+    color: #709de8;
+    font-weight: bold;
+}
+
+.forget-link:hover,
+.login-link:hover,
+.register-link:hover {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.infinity-form .btn-facebook:hover {
+    color: white;
+    background: hsla(221, 40%, 40%, 1);
+}
+
+.infinity-form .btn-google:hover {
+    color: white;
+    background: hsla(4, 59%, 47%, 1);
+}
+
+.infinity-form .btn-twitter:hover {
+    color: white;
+    background: hsla(195, 78%, 54%, 1);
+}
+
+.registration-form {
+    padding: 50px 0;
+}
+
+.registration-form form {
+    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
+    padding: 70px 90px;
+    border-radius: 30px;
+
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #5accef;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 3px rgba(255, 255, 255, 0.507);
+    text-decoration: none;
+}
+.judul {
+    font-size: 3rem;
+    /* text-align: center; */
+    margin-bottom: 1rem;
+}
+.button:hover {
+    background-color: #84d7f0;
+    text-decoration: none;
+    color: black;
+}
+
+.button:active {
+    background-color: #5accef;
+    box-shadow: 0 5px rgb(167, 165, 165);
+    transform: translateY(4px);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 6rem;
+}
+.container2 {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 10px 5px 10px;
+}
+.container3 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 10px 40px 10px;
+}
+.container1 {
+    width: 85%;
+    margin-top: 0%;
+    margin-left: 5rem;
+}
+
+.banner {
+    height: 50vh;
+    background-image: url("assets/jumbotron.jpg");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner1 {
+    height: 10vh;
+    background-image: url("assets/jumbotron.jpg");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+    height: 45vh;
+}
+.teks {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home {
+    float: right;
+    margin-right: 2rem;
+    font-size: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    background-color: #5accefb7;
+    padding: 5px 10px 5px 10px;
+    border-radius: 100px;
+    text-decoration: none;
+    outline: none;
+
+    /* position: fixed; */
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #5accef;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 3px rgba(255, 255, 255, 0.507);
+}
+
+.home:hover {
+    background-color: #84d7f0;
+}
+
+.result {
+    width: 35%;
+    margin-left: 25rem;
+}
+
+.foto {
+    height: auto;
+    width: 200px;
+}
